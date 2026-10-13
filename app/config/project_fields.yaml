@@ -1,0 +1,47 @@
+fields:
+  - name: project_id
+    label: Project ID
+    type: text
+    required: true
+    description: Unique identifier for the AI Project (e.g. OH-AI-001)
+  - name: project_name
+    label: Project Name
+    type: text
+    required: true
+  - name: owner
+    label: Owner
+    type: text
+    required: true
+    description: Name of the Project Owner
+  - name: business_unit
+    label: Business Unit
+    type: select
+    required: true
+    options:
+      - Clinical Operations
+      - Digital Health
+      - Data & Analytics
+      - HR
+      - Finance
+      - IT
+  - name: scope
+    label: Scope
+    type: textarea
+    required: true
+  - name: description
+    label: Description
+    type: textarea
+    required: true
+  - name: contact_email
+    label: Contact Email
+    type: text
+    required: true
+  - name: status
+    label: Status
+    type: select
+    required: true
+    options:
+      - Proposed
+      - In Development
+      - Active
+      - Sunset

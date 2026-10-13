@@ -1,0 +1,18 @@
+fields:
+  - name: version_number
+    label: Version Number
+    type: text
+    required: true
+    description: Semantic version (e.g. 1.0.0)
+  - name: release_date
+    label: Release Date
+    type: date
+    required: true
+  - name: change_summary
+    label: Change Summary
+    type: textarea
+    required: true
+  - name: submitted_by
+    label: Submitted By
+    type: text
+    required: true
